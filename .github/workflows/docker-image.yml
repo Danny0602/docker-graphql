@@ -32,5 +32,5 @@ jobs:
         docker build -t alejandromolar/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push aleandromolar/docker-graphql:0.0.2 .
+        docker push alejandromolar/docker-graphql:0.0.2 .
     

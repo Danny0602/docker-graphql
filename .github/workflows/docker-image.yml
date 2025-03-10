@@ -27,7 +27,7 @@ jobs:
         
     - name: Build Docker Image
       run: |
-        docker build -t alejandromolar/docker-graphql:0.0.2 .
+       docker build -t alejandromolar/docker-graphql:0.0.1 .
     - name: Push Docker Image
       run: |
         docker push alejandromolar/docker-graphql:0.0.2 .
